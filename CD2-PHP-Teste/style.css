@@ -6,7 +6,7 @@ body {
 header {
   height: 150px;
   background-color: white;
-  border-bottom: 2px solid black;
+  
 }
 label {
   font-size: 20px;
@@ -15,14 +15,16 @@ label {
 img {
   width: 150px;
   height: 150px;
+  border-radius: 30px;
   margin-left: 100px;
+  box-shadow: 0 0 25px 6px black;
+  margin-top: 20px;
 }
-hr {
-  background-color: black;
-  color: black;
-  border: black;
-  height: 2px;
+#pesquisa{
+  margin-top: 30px;
+margin-left: 40px;
 }
+
 .erro{
     background-color: yellow;
 }
@@ -30,11 +32,13 @@ hr {
     display: none;
 }
 .card{
+  margin-left: 40px;
+  margin-top: 10px;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 5px;
-  line-break: auto;
-  width: 500px;
+  
+  width: 400px;
   border: 1px solid black;
  
  
