@@ -1,0 +1,44 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+  padding: 0;
+}
+header {
+  height: 150px;
+  background-color: white;
+  border-bottom: 2px solid black;
+}
+label {
+  font-size: 20px;
+  
+}
+img {
+  width: 150px;
+  height: 150px;
+  margin-left: 100px;
+}
+hr {
+  background-color: black;
+  color: black;
+  border: black;
+  height: 2px;
+}
+.erro{
+    background-color: yellow;
+}
+.hidden{
+    display: none;
+}
+.card{
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 5px;
+  line-break: auto;
+  width: 500px;
+  border: 1px solid black;
+ 
+ 
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 30px 5px black;
+}
