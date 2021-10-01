@@ -1,10 +1,15 @@
+//Variável de controle de items exibidos na tela
 let buscados =[]
- export default function createElements(item1, item2, item3, item4, item5, item6, item7) {
-      let alreadyExists = buscados.find(element=> element ===item1)
 
+//Função que criará cada card, recebe os 7 atributos como parametros
+ export default function createElements(item1, item2, item3, item4, item5, item6, item7) {
+      //Verifica se o item já esta na tela
+      let alreadyExists = buscados.find(element=> element ===item1)
+      //Se estiver, não faz nada(adicionar uma função que de um highlight neste item, para facilitar para o usuário)
       if (alreadyExists){
           console.log("já esta na tela")
       }else{
+      //Caso o item não esteja na tela ele será criado
      buscados.push(item1)
     let newDivInfo = document.createElement("div");
   

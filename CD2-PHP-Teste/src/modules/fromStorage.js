@@ -1,5 +1,9 @@
+//Importa o createElements
 import createElements from "./createElements.js";
-let lista = JSON.parse(localStorage.getItem("lista")) || [];
+//Pega a lista do local storage
+let lista = JSON.parse(localStorage.getItem("lista"));
+
+// Função que resgata um item já pesquisado e foi salvo no local storage
 export default function fromStorage (item) {
     createElements(
       lista[item].cep,
@@ -10,5 +14,4 @@ export default function fromStorage (item) {
       lista[item].uf,
       lista[item].ddd
     );
-    console.log("from storage");
   };
