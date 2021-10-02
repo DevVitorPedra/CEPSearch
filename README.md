@@ -55,7 +55,7 @@ e será resgatado dali, não consumindo a API externa
 
 
 
-## 🤝 Obetivo:
+## 🤝 Objetivo:
 
 ```
 Com Objetivo educacional, a ideia era criar uma aplicação que consome uma API externa, utilizando o metodo Fetch,
